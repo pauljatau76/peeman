@@ -1,0 +1,32 @@
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background: red;
+    border: solid; 5px;
+    text-align: center;
+}
+nav {
+    background-color: black;
+    color: white;
+    text-align: left;
+}
+nav a {
+color: white;
+text-decoration: none;
+padding: 10px 20px;
+display: inline-block;
+}
+nav a:hover {
+background-color: black;
+color: #fff;
+}
+.custom-link {
+    colour: green;
+    text-decoration: green;
+    transition color: grey;
+}
+.custom-link:hover, .custom-link:focus {
+    color: green;
+    text-decoration: underline;
+}
